@@ -1,0 +1,9 @@
+﻿<h1>Усі авто</h1>
+<div class="row mt-5 mb-2">
+    @{
+        foreach (Car car in Model.SortAvailCars)
+        {
+            @Html.Partial("AllCars",car)
+        }
+    }
+</div>

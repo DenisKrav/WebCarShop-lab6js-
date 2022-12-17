@@ -1,0 +1,5 @@
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=(localdb)\\MSSQLLocalDB;Database=Used_car;Trusted_Connection=True;MultipleActiveResultSets=true"
+  }
+}

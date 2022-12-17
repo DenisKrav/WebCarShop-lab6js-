@@ -1,0 +1,9 @@
+﻿@model Car
+
+<div class="col-lg-4">
+    <img class="img-thumbnail" src="~/img/carImg.jpg" alt="@Model.ModelName" />
+    <h2>@Model.ModelName</h2>
+    <p>@Model.Price</p>
+    <p>@Model.Availability</p>
+    <button class="btn btn-warning" onclick="AddBasket('@Model.ModelName', @Model.Price);">Додати до кошика</button>
+</div>
